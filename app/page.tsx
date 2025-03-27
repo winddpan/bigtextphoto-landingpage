@@ -59,7 +59,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Feature 1 */}
-          <div className="bg-white p-6 rounded-2xl hover:shadow-md transition-shadow">
+          <div className="bg-white p-6 rounded-xl hover:shadow-md transition-shadow">
             <div className="flex items-center mb-4">
               <div className="bg-blue-100 p-3 rounded-full mr-4">
                 <Sparkles className="h-6 w-6 text-blue-600" />
@@ -72,7 +72,7 @@ export default function Home() {
           </div>
 
           {/* Feature 2 */}
-          <div className="bg-white p-6 rounded-2xl hover:shadow-md transition-shadow">
+          <div className="bg-white p-6 rounded-xl hover:shadow-md transition-shadow">
             <div className="flex items-center mb-4">
               <div className="bg-purple-100 p-3 rounded-full mr-4">
                 <Layers className="h-6 w-6 text-purple-600" />
@@ -85,7 +85,7 @@ export default function Home() {
           </div>
 
           {/* Feature 3 */}
-          <div className="bg-white p-6 rounded-2xl hover:shadow-md transition-shadow">
+          <div className="bg-white p-6 rounded-xl hover:shadow-md transition-shadow">
             <div className="flex items-center mb-4">
               <div className="bg-green-100 p-3 rounded-full mr-4">
                 <Type className="h-6 w-6 text-green-600" />
@@ -98,7 +98,7 @@ export default function Home() {
           </div>
 
           {/* Feature 4 */}
-          <div className="bg-white p-6 rounded-2xl hover:shadow-md transition-shadow">
+          <div className="bg-white p-6 rounded-xl hover:shadow-md transition-shadow">
             <div className="flex items-center mb-4">
               <div className="bg-red-100 p-3 rounded-full mr-4">
                 <Play className="h-6 w-6 text-red-600" />
@@ -111,7 +111,7 @@ export default function Home() {
           </div>
 
           {/* Feature 5 */}
-          <div className="bg-white p-6 rounded-2xl hover:shadow-md transition-shadow">
+          <div className="bg-white p-6 rounded-xl hover:shadow-md transition-shadow">
             <div className="flex items-center mb-4">
               <div className="bg-yellow-100 p-3 rounded-full mr-4">
                 <Zap className="h-6 w-6 text-yellow-600" />
@@ -124,7 +124,7 @@ export default function Home() {
           </div>
 
           {/* Feature 6 */}
-          <div className="bg-white p-6 rounded-2xl hover:shadow-md transition-shadow">
+          <div className="bg-white p-6 rounded-xl hover:shadow-md transition-shadow">
             <div className="flex items-center mb-4">
               <div className="bg-pink-100 p-3 rounded-full mr-4">
                 <ImagePlus className="h-6 w-6 text-pink-600" />
