@@ -48,14 +48,14 @@ export default function Home() {
       <section className="container mx-auto px-4 py-12 md:py-16">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
-            大字照片，一款专为文字与图像融合而生的创意编辑利器。我们深信，每张照片都承载着独特的故事，而恰到好处的文字能赋予其灵魂，让视觉表达更具深度与力量。用大字照片，轻松将你的想法、情感和故事，优雅地呈现在方寸之间。
+            大字照片，一款专为文字与图像融合而生的创意编辑利器。<br />我们深信，每张照片都承载着独特的故事，而恰到好处的文字能赋予其灵魂。
           </p>
         </div>
       </section>
 
       {/* Features */}
       <section className="container mx-auto px-4 py-12 md:py-16">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">【核心亮点】</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">核心亮点</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Feature 1 */}
@@ -64,10 +64,10 @@ export default function Home() {
               <div className="bg-blue-100 p-3 rounded-full mr-4">
                 <Sparkles className="h-6 w-6 text-blue-600" />
               </div>
-              <h3 className="text-xl font-semibold">AI 智能添翼</h3>
+              <h3 className="text-xl font-semibold">AI帮写</h3>
             </div>
             <p className="text-gray-600">
-              创作卡壳？AI智能理解图片意境，为你推荐触动人心的文案灵感。更有专业级版式设计一键应用，瞬间提升作品格调。
+              创作卡壳？AI智能理解图片意境，为你推荐触动人心的文案灵感和专业级版式设计。
             </p>
           </div>
 
@@ -77,10 +77,10 @@ export default function Home() {
               <div className="bg-purple-100 p-3 rounded-full mr-4">
                 <Layers className="h-6 w-6 text-purple-600" />
               </div>
-              <h3 className="text-xl font-semibold">精妙分层，掌控景深</h3>
+              <h3 className="text-xl font-semibold">前后景分离编辑</h3>
             </div>
             <p className="text-gray-600">
-              业界领先的前后景智能分离技术，允许你独立调整前景、背景的滤镜与参数，创造出令人惊叹的视觉层次感与景深效果。
+              独创的前后景智能分离技术，允许你独立调整前景、背景的滤镜与参数，创造出更有趣的作品。
             </p>
           </div>
 
@@ -90,7 +90,7 @@ export default function Home() {
               <div className="bg-green-100 p-3 rounded-full mr-4">
                 <Type className="h-6 w-6 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold">文字入景，立体呈现</h3>
+              <h3 className="text-xl font-semibold">海报穿插字</h3>
             </div>
             <p className="text-gray-600">
               让文字巧妙地穿插于画面的前后景物之间，营造逼真的3D立体感。搭配精心挑选的丰富字体库，风格随心定义。
@@ -103,10 +103,10 @@ export default function Home() {
               <div className="bg-red-100 p-3 rounded-full mr-4">
                 <Play className="h-6 w-6 text-red-600" />
               </div>
-              <h3 className="text-xl font-semibold">动态照片，鲜活编辑</h3>
+              <h3 className="text-xl font-semibold">动态照片实时编辑(Live Photo)</h3>
             </div>
             <p className="text-gray-600">
-              支持实况照片编辑，效果实时预览，真正所见即所得。滤镜、文字与动态画面无缝融合，创造奇妙生动的视觉故事。
+              支持实况照片编辑和实时预览，真正所见即所得。滤镜、文字与动态画面无缝融合，创造奇妙编辑体验。
             </p>
           </div>
 
@@ -116,10 +116,10 @@ export default function Home() {
               <div className="bg-yellow-100 p-3 rounded-full mr-4">
                 <Zap className="h-6 w-6 text-yellow-600" />
               </div>
-              <h3 className="text-xl font-semibold">流畅体验，专注创作</h3>
+              <h3 className="text-xl font-semibold">流畅体验</h3>
             </div>
             <p className="text-gray-600">
-              搭载高性能GPU渲染引擎，带来如丝般顺滑的编辑体验。我们专注于核心功能打磨，让你沉浸创作，而非被繁杂功能干扰。
+              使用高性能GPU渲染引擎，带来如丝般顺滑的编辑体验。
             </p>
           </div>
 
@@ -129,7 +129,7 @@ export default function Home() {
               <div className="bg-pink-100 p-3 rounded-full mr-4">
                 <ImagePlus className="h-6 w-6 text-pink-600" />
               </div>
-              <h3 className="text-xl font-semibold">无损画质，细节尽显</h3>
+              <h3 className="text-xl font-semibold">无损画质导出</h3>
             </div>
             <p className="text-gray-600">
               支持Display P3广色域，导出作品保持原图级别的高清画质。Live Photo支持全帧处理导出，完美融合动静之美。
@@ -142,7 +142,7 @@ export default function Home() {
       <section className="container mx-auto px-4 py-16 md:py-24 text-center">
         <h2 className="text-2xl md:text-3xl font-bold mb-6">立即体验大字照片</h2>
         <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-          无论是日常记录的灵光一闪，还是内心深处的情感抒发，大字照片都是你强大的创意伙伴，助你打造与众不同的视觉杰作。
+          无论是日常记录的灵光一闪，还是内心深处的情感抒发。<br />大字照片都能帮你更专注地创作内容。
         </p>
 
         <Link
@@ -161,7 +161,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8">
         <div className="container mx-auto px-4 text-center">
-          <p>© {new Date().getFullYear()} 大字照片 - 文字与图像的创意工坊</p>
+          <p>© {new Date().getFullYear()} BigTextPhoto.com</p>
         </div>
       </footer>
     </div>

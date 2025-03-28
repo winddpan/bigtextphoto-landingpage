@@ -1,8 +1,8 @@
-import type { MetadataRoute } from "next"
+import type { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "大字照片 - 文字与图像的创意工坊",
+    name: "大字照片",
     short_name: "大字照片",
     description: "一款专为文字与图像融合而生的创意编辑利器",
     start_url: "/",
@@ -21,6 +21,6 @@ export default function manifest(): MetadataRoute.Manifest {
         type: "image/png",
       },
     ],
-  }
+  };
 }
 
